@@ -1,0 +1,76 @@
+.padre1{
+    background-color: blue;
+    display :grid ;
+    grid-template-columns: auto auto auto auto;
+    margin: 5px;
+    padding: 5px;
+}
+.hijo{
+    background-color: green;
+    border-color: deepskyblue;
+    border-style: solid;
+}
+.hijo1{
+    grid-column: 1/5;
+    border-color: deepskyblue;
+    border-style: solid;
+}
+.hijo2{
+    grid-column: 1/3;
+    border-color: deep;
+    border-style: solid;
+}
+.hijo6{
+    grid-column: 2/5;
+    border-color: red;
+    border-style: solid;
+}
+.hijo7{
+    grid-column: 1/4;
+    grid-row: 4/6;
+    border-color: red;
+    border-style: solid;
+}
+.padre2{
+    display: flex;
+    background-color: yellow;
+    padding: 5%;
+    margin: 5px;
+}
+.hijoo{
+    background-color: lightsalmon;
+    border-color: black;
+    border-style: solid;
+    width: 200px;
+    height: auto;
+}
+.hijoo2{
+    border-style: solid;
+    border-color: green;
+    margin: 5%;
+    padding: 2%;
+    width: 250px;
+    height: 150px;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.sub{
+    background-color: sienna;
+    width: 95px;
+    height: 55px;
+    margin: 1px;
+   
+    border-color: royalblue;
+    border-style: solid;
+}
+.sub1{
+    background-color: sandybrown;
+    border-style: solid;
+    width: 200px;
+}
+.padre3{
+    background-color: olivedrab;
+    display: flex;
+    padding: 5px;
+}
